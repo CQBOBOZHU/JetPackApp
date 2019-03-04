@@ -33,6 +33,7 @@ public class TabFragment extends BaseFragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        Log.v("===","onActivityCreated");
         final View view = getView();
 
         view.findViewById(R.id.btn1).setOnClickListener(new View.OnClickListener() {
@@ -52,6 +53,7 @@ public class TabFragment extends BaseFragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        Log.v("===","onViewCreated");
         TextView textView = view.findViewById(R.id.tv1);
         textView.setText(getClass().getSimpleName());
         Bundle arguments = getArguments();
