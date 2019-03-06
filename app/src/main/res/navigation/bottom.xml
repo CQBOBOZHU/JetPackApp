@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom"
+    app:startDestination="@id/btm1Fragment">
+
+    <fragment
+        android:id="@+id/btm1Fragment"
+        android:name="com.bobozhu.jetpackapp.bottom.fragments.Btm1Fragment"
+        android:label="Btm1Fragment">
+
+    </fragment>
+    <fragment
+        android:id="@+id/btm2Fragment"
+        android:name="com.bobozhu.jetpackapp.bottom.fragments.Btm2Fragment"
+        android:label="Btm2Fragment">
+
+    </fragment>
+    <fragment
+        android:id="@+id/btm3Fragment"
+        android:name="com.bobozhu.jetpackapp.bottom.fragments.Btm3Fragment"
+        android:label="Btm3Fragment">
+
+    </fragment>
+
+    <!--<activity-->
+        <!--android:id="@+id/tabActivity"-->
+        <!--android:name="com.bobozhu.jetpackapp.TabActivity"-->
+        <!--android:label="content_tab"-->
+        <!--tools:layout="@layout/content_tab">-->
+        <!--<action-->
+            <!--android:id="@+id/action_tabActivity2_to_btm3Fragment"-->
+            <!--app:destination="@id/btm3Fragment" />-->
+        <!--<action-->
+            <!--android:id="@+id/action_tabActivity2_to_btm2Fragment"-->
+            <!--app:destination="@id/btm2Fragment" />-->
+        <!--<action-->
+            <!--android:id="@+id/action_tabActivity2_to_btm1Fragment"-->
+            <!--app:destination="@id/btm1Fragment" />-->
+
+    <!--</activity>-->
+</navigation>

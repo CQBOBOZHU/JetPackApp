@@ -1,9 +1,8 @@
-package com.bobozhu.jetpackapp.fragments;
+package com.bobozhu.jetpackapp.bottom.fragments;
 
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.TextView;
 
 import com.bobozhu.jetpackapp.BaseFragment;
 import com.bobozhu.jetpackapp.R;
@@ -12,9 +11,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
-import androidx.navigation.fragment.NavHostFragment;
-
-import static androidx.navigation.fragment.NavHostFragment.findNavController;
 
 /**
  * 功能描述：
@@ -22,7 +18,7 @@ import static androidx.navigation.fragment.NavHostFragment.findNavController;
  * @author BoBoZhu
  * @date 2019/3/4 0004
  */
-public class TabFragment extends BaseFragment {
+public class Btm3Fragment extends BaseFragment {
     @Override
     protected int getLayoutId() {
         return R.layout.fragment_tab2;
